@@ -1,7 +1,7 @@
 use std::io;
 fn main() {
-    let mut name = String::new();
+    let mut buffer = String::new();
     println!("Enter your name:");
-    io::stdin().read_line(&mut name);
-    println!("Hello, {} ",name);
+    io::stdin().read_line(&mut buffer);
+    println!("Hello, {} ",buffer);
 }
