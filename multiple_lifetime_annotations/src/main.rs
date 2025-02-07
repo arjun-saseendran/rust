@@ -5,7 +5,6 @@ fn big_number<'a, 'b>(num1: &'a str, num2: &'b str) -> &'a str {
         num1
     }
 }
-
 fn main() {
     let result;
     let test = String::from("Testing");
