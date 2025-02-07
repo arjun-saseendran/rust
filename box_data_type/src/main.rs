@@ -31,5 +31,8 @@ fn main() {
     );
 
     let unboxed_person1: People = *boxed_person1;
-    println!("unboxed person1 size on stack: {} bytes ",mem::size_of_val(&unboxed_person1));
+    println!(
+        "unboxed person1 size on stack: {} bytes ",
+        mem::size_of_val(&unboxed_person1)
+    );
 }

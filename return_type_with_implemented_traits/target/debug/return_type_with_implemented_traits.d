@@ -1,0 +1,1 @@
+/Users/arjunsaseendran/Developer/rust/return_type_with_implemented_traits/target/debug/return_type_with_implemented_traits: /Users/arjunsaseendran/Developer/rust/return_type_with_implemented_traits/src/main.rs
